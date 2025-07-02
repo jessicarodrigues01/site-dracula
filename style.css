@@ -1,0 +1,84 @@
+/*Estilo básicos para o corpo da página*/
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+/*Estilo para o cabeçalho*/
+header{
+    background-color: #000000;
+    color: #fff;
+    padding: 1.6px 0;
+}
+
+/*Estilo para a navegação*/
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px; 
+}
+
+/*Estilo para os links no menu de navegação*/
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*Estilo para links ao passar o mouse*/
+a:hover{
+    color: #b74b4b;
+}
+
+a:active{
+    color: #b74b4b
+}
+
+/*Estilo para o conteúdo principal*/
+main{
+    padding: 32px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, p{
+    color:#fff
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #cda6a58a;
+}
+
+.center{
+    text-align: center;
+    padding: 7px;
+}
+
+span{
+    color: #b74b4b;
+}
+
+/*Estilo para o rodapé*/
+footer{
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: smaller;
+    height: 1%;
+}
+
+/*Estilo para o rodapé*/
+footer {
+    margin: 0;
+    color:#b74b4b
+}
