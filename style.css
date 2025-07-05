@@ -65,20 +65,13 @@ span{
 }
 
 /*Estilo para o rodapé*/
-footer{
-    background-color: #000000;
-    color: #fff;
-    text-align: center;
-    padding: 16px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    font-size: smaller;
-    height: 1%;
-}
-
 /*Estilo para o rodapé*/
 footer {
-    margin: 0;
-    color:#b74b4b
+    background-color: #000000;
+    color: #b74b4b;
+    text-align: center;
+    padding: 16px 0;
+    font-size: smaller;
+    width: 100%;
+    margin-top: 40px;
 }
