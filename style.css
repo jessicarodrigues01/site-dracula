@@ -10,7 +10,7 @@ body{
 header{
     background-color: #000000;
     color: #fff;
-    padding: 1.6px 0;
+    padding: 16px 0;
 }
 
 /*Estilo para a navegação*/
@@ -24,17 +24,14 @@ nav ul{
 
 /*Estilo para os links no menu de navegação*/
 nav ul li a{
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
 }
 
 /*Estilo para links ao passar o mouse*/
-a:hover{
+a:hover,
+a:active {
     color: #b74b4b;
-}
-
-a:active{
-    color: #b74b4b
 }
 
 /*Estilo para o conteúdo principal*/
@@ -65,13 +62,11 @@ span{
 }
 
 /*Estilo para o rodapé*/
-/*Estilo para o rodapé*/
 footer {
     background-color: #000000;
     color: #b74b4b;
     text-align: center;
     padding: 16px 0;
     font-size: smaller;
-    width: 100%;
     margin-top: 40px;
 }
